@@ -1,7 +1,5 @@
 # Modular dotfiles repository
 
----
-
 This repository is a Makefile-managed dotfiles collections, allowing to symlink either individual or a group of dotfiles packages.
 They are meant for fast deployment, specific softwares and system genericity (if possible).
 
@@ -11,16 +9,12 @@ They are meant for fast deployment, specific softwares and system genericity (if
 - GNU Stow
 - Node.js (Visual Studio Code scripts)
 
----
-
 ## Softwares
 
 - Alacritty
 - Neovim
 - Visual Studio Code
 - Zsh
-
----
 
 ## Plugins
 

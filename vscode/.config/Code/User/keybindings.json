@@ -1,0 +1,8 @@
+[
+    {
+        "key": "f9 tab",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Copy JavaScript exports of current file",
+        "when": "editorTextFocus"
+    }
+]

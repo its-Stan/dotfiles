@@ -1,0 +1,24 @@
+#!/bin/zsh
+
+alias cdc='clear && cd'
+alias grep='grep --color'
+
+alias ls='ls -XA  --color --group-directories-first'
+alias ll='ls -XAl --color --group-directories-first'
+alias tree='tree -aC -I .git --dirsfirst'
+
+alias convert='magick'
+
+alias clang-format='clang-format -i'
+
+alias ga='git add'
+alias gca='git commit --amend'
+alias gcm='git commit -m'
+alias gt='git tag'
+alias gta='git tag -a'
+alias gll='git log --oneline'
+
+alias vim='nvim'
+alias reload="source $ZSHDIR/.zshrc"
+
+add_export() { echo "$@" >> "${ZDOTDIR:-HOME}/.zsh_exports" }

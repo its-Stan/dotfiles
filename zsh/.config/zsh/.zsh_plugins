@@ -1,0 +1,13 @@
+#!/bin/zsh
+
+HISTFILE=~/.cache/zsh_history
+HISTSIZE=32
+SAVEHIST=32
+
+zstyle ':completion:*' completer _complete _ignored
+zstyle ':completion:*' original false
+zstyle :compinstall filename "$ZSHDIR/.zshrc"
+
+autoload -Uz compinit && compinit
+
+[ -f "$ZSHDIR/.zsh_exports" ] && source "$ZSHDIR/.zsh_exports"

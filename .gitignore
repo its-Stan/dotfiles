@@ -1,0 +1,6 @@
+.vs
+.vscode
+.idea
+
+wallpapers/
+zsh/.config/zsh/.zsh_exports

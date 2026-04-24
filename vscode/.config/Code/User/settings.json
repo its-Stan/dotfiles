@@ -1,0 +1,42 @@
+{
+    "chat.disableAIFeatures": true,
+
+    "editor.stickyScroll.enabled": false,
+    "editor.minimap.enabled": false,
+
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.hotExit": "off",
+
+    "nix.enableLanguageServer": true,
+    "nix.serverPath": "nil",
+    "nix.serverSettings": {
+        "nil": {
+            "diagnostics": {
+                "ignored": ["unused_binding", "unused_with"],
+            },
+            "formatting": {
+                "command": ["nix", "fmt"],
+            }
+        }
+    },
+
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.shellIntegration.history": 0,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "terminal.integrated.suggest.upArrowNavigatesHistory": false,
+
+    "update.mode": "none",
+    "vsicons.dontShowNewVersionMessage": true,
+
+    "window.restoreWindows": "none",
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "none",
+    "makefile.configureOnOpen": false,
+}

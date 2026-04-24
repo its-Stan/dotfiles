@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Steam
+Exec=steam -silent
+Icon=steam
+Terminal=false

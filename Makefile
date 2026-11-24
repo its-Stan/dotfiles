@@ -1,5 +1,5 @@
 STOW = stow
-STOW_FLAGS ?= --target=$(HOME) --no-folding
+STOW_FLAGS ?= --target=$(HOME) --no-folding --ignore='.*\.bak' --ignore='.*\.old'
 PIPE_ERROR = 2> /dev/null || true
 
 MAKEFLAGS += --no-print-directory

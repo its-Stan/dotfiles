@@ -1,18 +1,19 @@
-local opt = vim.opt
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+vim.opt.showcmd = false
+vim.opt.cursorline = true
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+vim.opt.colorcolumn = '80'
+vim.opt.shortmess = 'I'
+vim.opt.clipboard = 'unnamedplus'
 
-opt.tabstop = 4
-opt.shiftwidth = 4
-opt.expandtab = true
-opt.showcmd = false
-opt.cursorline = true
-opt.ignorecase = true
-opt.smartcase = true
-opt.splitright = true
-opt.splitbelow = true
-opt.colorcolumn = '80'
-opt.shortmess = 'I'
-opt.clipboard = 'unnamedplus'
+local pkl_bin = vim.fn.expand("~/.local/bin/pkl")
 
-local global = vim.g
-
-global.c_syntax_for_h = 1
+vim.g.c_syntax_for_h = 1
+vim.g.pkl_neovim = {
+    pkl_cli_path = vim.fn.executable(pkl_bin) and pkl_bin or nil
+}
